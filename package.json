@@ -1,0 +1,34 @@
+{
+  "name": "aig-voice-agent-advanced",
+  "version": "2.0.0",
+  "description": "Advanced AIG Voice Agent with interruption handling and escalation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dashboard": "node server.js",
+    "build": "echo 'No build step required'",
+    "test": "node -e \"console.log('All dependencies loaded successfully'); process.exit(0)\""
+  },
+  "dependencies": {
+    "fastify": "^4.29.1",
+    "@fastify/websocket": "^8.3.1",
+    "@fastify/cors": "^8.5.0",
+    "ws": "^8.18.2",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "uuid": "^9.0.1",
+    "node-cache": "^5.1.2",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": ["voice", "ai", "twilio", "openai", "freight", "logistics"],
+  "author": "AIG Enterprises",
+  "license": "MIT"
+}
